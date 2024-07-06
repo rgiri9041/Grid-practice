@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+.container{
+}
+
+.header{
+    background-color: #393F4D;
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr 4fr;
+    height: 100px;
+}
+
+.logo{
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;   
+    font-weight: bold;
+}
+.menu{
+     align-self: center;
+}
+
+.menu ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    font-weight: bold;
+ }
+
+.menu ul li{
+    font-size: 15px;
+    list-style-type: none;
+ }
+
+.footer{
+    font-size: 15px;
+    align-content: center;
+    height: 70px;
+    background-color: #393F4D;
+    text-align: center;
+    color: white;
+ }
+
+ .basic{
+    display: grid;
+    grid-template-columns: 1fr 4fr  ;
+ }
+
+ .sidebar{
+    display: grid;
+    grid-template-columns: 2 / 4;
+    background-color: red;
+    text-align: center;
+ }
+
+ .image p{
+    background-color: white;
+    /* height: 175px;
+    width: 175px; */
+    border-radius: 15px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    margin: 35px;
+    gap: 5px;
+    
+  }
+ .sidebar .side-content{
+    background-color: white;
+    /* height: 175px;
+    width: 175px; */
+    /* border-radius: 15px; */
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    margin: 35px;
+    gap: 5px;
+ }
+  .nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: red;
+    text-align: center;
+    font-weight: bold;
+    height: 50px;
+    margin: 5px;
+    
+  }
+
+  .nav-item{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+
+  }
+  .articles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #BCCBDE;
+    font-family: cursive;
+  }
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .card{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    /* height: 200px;
+    width: 300px; */
+    margin: 10px;
+
+  }
+ 
+
+
+
